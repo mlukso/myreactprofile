@@ -12,7 +12,7 @@ class LandingPage extends Component {
     return (
       <div className="landing-page">
       <Nav />
-        <main>
+        <div className="landing-page-main">
         <div className="intro-wrapper">
         <Typography className="intro" variant="title" style={{color: "#485564"}} gutterBottom>
             Hello, I'm Matt!
@@ -22,8 +22,8 @@ class LandingPage extends Component {
         </Typography>
         <SocialIcons />
         </div>
-        </main>
         <ScrollToNext pageSelector=".about-page"/>
+        </div>
       </div>
     );
   }
