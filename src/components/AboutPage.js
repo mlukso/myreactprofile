@@ -16,6 +16,7 @@ class About extends Component {
             </Typography>
             <div className="about-content">
               <img 
+                className="profile-pic"
                 alt="sweet profile pic"
                 src={require('../profile.png')} 
                 style={{

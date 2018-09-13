@@ -153,12 +153,13 @@ nav {
 }
     
 .about-content {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		font-size: 0.875rem;
-		line-height: 1.5rem;
-		padding: 10px;
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-content: center;	
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	padding: 10px;
 
 	}
 
