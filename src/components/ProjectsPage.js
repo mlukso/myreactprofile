@@ -8,12 +8,14 @@ class ProjectPage extends Component {
   render() {
     return (
       <div className="project-page">
-        <main>
+        <div className="project-page-main">
+          <div className="project-wrapper">
         <Typography className="intro" variant="title" style={{color: "#485564"}} gutterBottom>
             Some of my projects... clearly more to do here
         </Typography>
-        </main>
+        </div>
         <ScrollToPrevious pageSelector=".about-page" />
+        </div>
       </div>
     );
   }
